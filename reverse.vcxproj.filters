@@ -1,0 +1,161 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="Imgui\imgui.cpp">
+      <Filter>imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="Imgui\imgui_draw.cpp">
+      <Filter>imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="Imgui\imgui_impl_dx9.cpp">
+      <Filter>imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="Imgui\imgui_impl_win32.cpp">
+      <Filter>imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="Imgui\imgui_widgets.cpp">
+      <Filter>imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="Imgui\imgui_demo.cpp">
+      <Filter>imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="Imgui\elements.cpp">
+      <Filter>imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="Imgui\imgui_tables.cpp">
+      <Filter>imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="driver.h">
+      <Filter>driver</Filter>
+    </ClInclude>
+    <ClInclude Include="Imgui\elements.h">
+      <Filter>imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="Imgui\imgui.h">
+      <Filter>imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="Imgui\imgui_impl_dx9.h">
+      <Filter>imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="Imgui\imconfig.h">
+      <Filter>imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="Imgui\imgui_impl_win32.h">
+      <Filter>imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="Imgui\imgui_internal.h">
+      <Filter>imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="Imgui\imstb_textedit.h">
+      <Filter>imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="Imgui\imstb_truetype.h">
+      <Filter>imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="Imgui\imstb_rectpack.h">
+      <Filter>imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="utils.h">
+      <Filter>driver</Filter>
+    </ClInclude>
+    <ClInclude Include="offsets.h">
+      <Filter>sdk</Filter>
+    </ClInclude>
+    <ClInclude Include="zcheats.h">
+      <Filter>libs</Filter>
+    </ClInclude>
+    <ClInclude Include="xstring.h">
+      <Filter>libs</Filter>
+    </ClInclude>
+    <ClInclude Include="stb_image.h">
+      <Filter>libs</Filter>
+    </ClInclude>
+    <ClInclude Include="skStr.h">
+      <Filter>libs</Filter>
+    </ClInclude>
+    <ClInclude Include="Skicript.hpp">
+      <Filter>libs</Filter>
+    </ClInclude>
+    <ClInclude Include="Keybind.h">
+      <Filter>libs</Filter>
+    </ClInclude>
+    <ClInclude Include="ud.h">
+      <Filter>libs</Filter>
+    </ClInclude>
+    <ClInclude Include="settings.cpp">
+      <Filter>sdk</Filter>
+    </ClInclude>
+    <ClInclude Include="directx9\d3dx9xof.h">
+      <Filter>libs\dx9</Filter>
+    </ClInclude>
+    <ClInclude Include="directx9\d3dx9tex.h">
+      <Filter>libs\dx9</Filter>
+    </ClInclude>
+    <ClInclude Include="directx9\d3dx9shape.h">
+      <Filter>libs\dx9</Filter>
+    </ClInclude>
+    <ClInclude Include="directx9\d3dx9shader.h">
+      <Filter>libs\dx9</Filter>
+    </ClInclude>
+    <ClInclude Include="directx9\d3dx9math.h">
+      <Filter>libs\dx9</Filter>
+    </ClInclude>
+    <ClInclude Include="directx9\d3dx9mesh.h">
+      <Filter>libs\dx9</Filter>
+    </ClInclude>
+    <ClInclude Include="directx9\d3dx9effect.h">
+      <Filter>libs\dx9</Filter>
+    </ClInclude>
+    <ClInclude Include="directx9\d3dx9core.h">
+      <Filter>libs\dx9</Filter>
+    </ClInclude>
+    <ClInclude Include="directx9\d3dx9.h">
+      <Filter>libs\dx9</Filter>
+    </ClInclude>
+    <ClInclude Include="directx9\d3dx9anim.h">
+      <Filter>libs\dx9</Filter>
+    </ClInclude>
+    <ClInclude Include="Imgui\glfw3.h">
+      <Filter>imgui</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="imgui">
+      <UniqueIdentifier>{c3ea2088-a3ad-41bf-b883-8ddf92287b64}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="driver">
+      <UniqueIdentifier>{89d64466-55af-43c5-a8af-5eea6a5f52cc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="sdk">
+      <UniqueIdentifier>{a641151e-f851-4c47-bd47-8eb8d05c38a8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="libs">
+      <UniqueIdentifier>{412c8ae9-1e14-4a36-a2f2-7e98050e5c94}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="libs\dx9">
+      <UniqueIdentifier>{dd44debc-227c-4090-af2a-b090221247c5}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Library Include="library_x64.lib">
+      <Filter>libs</Filter>
+    </Library>
+    <Library Include="directx9\d3dx9.lib">
+      <Filter>libs\dx9</Filter>
+    </Library>
+    <Library Include="libcurl.lib">
+      <Filter>libs</Filter>
+    </Library>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="vactor.h">
+      <Filter>libs</Filter>
+    </None>
+    <None Include="directx9\d3dx9math.inl">
+      <Filter>libs\dx9</Filter>
+    </None>
+  </ItemGroup>
+</Project>
